@@ -1,5 +1,5 @@
 {% set name = "depyf" %}
-{% set version = "0.18.0" %}
+{% set version = "0.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/depyf-{{ version }}.tar.gz
-  sha256: b99f0c383be949ae45d5d606fe444c71f375b55a57b8d6b20e7856670d52130d
+  sha256: afed0916b32d141cc90fa6220df01885eda442ca43b297d5050eeb90b4a5cb44
 
 build:
   noarch: python
